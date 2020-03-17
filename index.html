@@ -2,11 +2,19 @@
 <html>
 <head>
     Sobreviventes
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js"></script>
 </head>
-<body>
+<body onmouseout="alert('tem certeza que quer sair?')">
     <header>
 
     </header>
-    <p>Teste</p>
+    <!--Contagem regressiva-->
+    <div class="contagem">
+        <table><tr><td><div class="numero" id="dia"></div></td></td><td><div class="numero" id="hora"></div></td><td><div class="numero" id="minuto"></div></td><td><div class="numero" id="segundo"></div></td></tr>
+        <tr style="height:20px"><td><p class="legenda">Dias</p></td><td><p class="legenda">Horas</p></td><td><p class="legenda">Min</p></td><td><p class="legenda">Seg</p></td></tr></table>
+        
+        </table>
+    </div>
 </body>
 </html>
