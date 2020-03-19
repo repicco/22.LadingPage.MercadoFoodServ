@@ -184,7 +184,30 @@
 
 
     <div class="cont">
-        <a href="https://pag.ae/7VRC4zDr4"><button class="btn btn-success">Compre Agora!</button></a>
+        <form id="form_food" name="mercadofood" action="https://pag.ae/7VRC4zDr4" method="GET">
+            <input class="form-control forms" type="text" name="nome" placeholder="Digite seu nome" required >
+
+            <input class="form-control forms" type="email" name="email" placeholder="Digite seu e-mail" required>
+
+            <div class="form-check forms">
+                <p>Como ficou sabendo?</p>
+                <input type="radio" name="Social" id="Facebook" class="form-check-input forms_social" value="Facebook" checked>
+                <label for="Facebook">Facebook</label>
+            </div>
+            <div class="form-check forms">
+                <input type="radio" name="Social" id="Google" class="form-check-input forms_social" value="Google">
+                <label for="Google">Google</label>
+            </div>
+
+            <div class="form-check forms">
+                <input type="radio" name="Social" id="Instagram" class="form-check-input forms_social" value="Instagram">
+                <label for="Instagram">Instagram</label>
+            </div>
+
+
+
+            <input class="form-control forms submit btn btn-success" type="submit" name="comprar" id="submit" value="Compre Agora">
+        </form>
     </div>
 
 
