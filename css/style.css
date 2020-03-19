@@ -3,12 +3,151 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'IBM Plex Serif', serif;
+    font-weight: normal;
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+}
+
+p {
+    color: #fff;
+    font-size: 0.9rem;
+    line-height: 1rem;
+    text-align: center;
+}
+
+h1, h2, h3, h4{
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: white;
 }
 
 html, body {
     width: 100%;
     height: 100%;
+
+    background-color: #000000;
 }
+
+.cont {
+    padding: 0 6% 0 6%;
+    margin: 5% 0 5% 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ======================================= */
+
+/* Fonts
+font-family: 'IBM Plex Sans', sans-serif;
+font-family: 'IBM Plex Serif', serif;
+font-family: 'Audiowide', cursive;
+======================================= */
+
+/* ===============================Mobile============================ */
+
+/* Header */
+header {
+    background: url("../img/principal.jpg") no-repeat;
+    background-size: cover;
+
+    width: 375px;
+    height: 223px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: flex-end;
+
+}
+
+.cont_head {
+    padding: 0 6% 0 6%;
+    margin: 5% 0 5% 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: flex-end;
+}
+
+header a {
+    margin-top: 10%;
+
+    width: 217px;
+    height: 58px;
+}
+
+header h1 {
+    margin-top: 10%;
+    font-size: 1.5rem;
+    color: #2B5B9C;
+}
+
+header h2 {
+    font-size: 1.3rem;
+    color: #fff;
+}
+
+/* Section 1 */
+#icons {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.icons {
+    width: 48%;
+    padding-top: 6%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.icons:first-child {
+    margin-right: 2%;
+
+}
+
+.img_circ {
+    width: 60px;
+    height: 60px;
+
+    border: 1px solid #fff;
+    border-radius: 50%;
+    text-align: center;
+
+    background-color: #547EB7;
+}
+
+.img_circ2 {
+    background-color: #E3387D;
+}
+
+.icons img {
+    padding-top: 6%;
+
+    width: 50px;
+    height: 45px;
+
+}
+
+.icons_text {
+    max-width: 49%;
+    margin-left: 5%;
+}
+
+ul {
+    margin: 5% 0 5% 0;
+    list-style-type: disc;
+    width: 80%;
+    color: #fff;
+}
+
 
 
 
@@ -17,28 +156,109 @@ html, body {
 .contagem{
     width:300px;
     height:70px;
-    background-color: #ffffff;
+    background-color: #000;
     }
     
     .numero
     {
     min-width: 20px;
-    max-width: 55px;
-    background-color: #efefef;
-    color: #000000;
-    font-size: 22px;
+    background-color: #fff;
+    color: #000;
+    font-size: 2rem;
     margin: 5px;
     text-align: center;
     border-radius: 5px;
-    padding: 5px;
+    padding: 0.1rem;
     font-family: 'Audiowide', cursive;
     }
     
     .legenda{
     height: 25px;
-    line-height: 10px;
+    line-height: 0.5;
     font-size:12px;
-    background-color: #ffffff;
+    background-color: #000;
     text-align: center;
     font-family: 'Audiowide', cursive;
     }
+
+    .corpo_tr td {
+        max-width: 60%;
+    }
+/* ======================================= */
+
+/* Fotos */
+
+.carousel-item h3 {
+    font-size: 1rem;
+} 
+
+#fotos {
+    margin: 10% 0 10% 0;
+}
+
+
+
+/* Contatos */
+
+#contato {
+    margin: 10% 0 10% 0;
+}
+
+#depoimentos_back {
+    width: 471px;
+    height: 210px;
+    
+    background: #fff;
+    transform: rotate(-5.13deg);
+    position: relative;
+}
+
+#depoimentos_borda {
+    width: 471px;
+    height: 210px;
+    border: 3px solid #E3387D;
+    transform: rotate(-6deg);
+
+    position: absolute;
+    margin-top: 2.5%;
+    margin-left: 10%;
+}
+
+#depoimentos {
+    position: absolute;
+    margin-top: 5%;
+}
+
+#contato_item, #contato_item2, #contato_item3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img_dep {
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+}
+
+.dep_title {
+    color: #2B5B9C;
+}
+
+.dep_text {
+    color: #000;
+}
+
+.dep_select {
+    background-color: #2B5B9C;
+}
+
+/* botoes */
+.info_btn {
+    cursor: unset;
+}
+
+.info_btn i {
+    color: white;
+    padding-right: 10px;
+}
