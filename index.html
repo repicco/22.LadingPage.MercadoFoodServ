@@ -4,6 +4,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
 
+    <!--Google API-->
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-TTDS2TQ');</script>
+    <!-- End Google Tag Manager -->
+
 
     <title>Sobreviventes</title> 
 
@@ -185,7 +194,7 @@
 
     <div class="cont">
         <form id="form_food" name="mercadofood" action="https://pag.ae/7VRC4zDr4" method="GET">
-            <input class="form-control forms" type="text" name="nome" placeholder="Digite seu nome" required >
+            <input class="form-control forms" type="text" name="nome" placeholder="Digite seu nome completo" pattern="^\D{2,}\s[\D\s]{2,}$" required >
 
             <input class="form-control forms" type="email" name="email" placeholder="Digite seu e-mail" required>
 
@@ -210,6 +219,11 @@
         </form>
     </div>
 
+    <section id="sobre" class="cont">
+        <h3>Quem Somos</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati ratione nulla sed excepturi nobis. Hic incidunt placeat voluptatibus vel molestiae illo, beatae facere soluta autem distinctio nisi sint, blanditiis reprehenderit.</p>
+    </section>
+
 
 
 
@@ -217,6 +231,11 @@
     <!--<a href="https://pag.ae/7VRC4zDr4"><button>Comprar!</button></a>-->
 
 
+    <!--Google API-->
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TTDS2TQ"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
 
 </body>
 </html>
