@@ -217,11 +217,11 @@ ul {
     width: 471px;
     height: 210px;
     border: 3px solid #E3387D;
-    transform: rotate(-6deg);
+    transform: rotate(-5.13deg);
 
     position: absolute;
-    margin-top: 2.5%;
-    margin-left: 10%;
+    margin-top: 2%;
+    margin-left: 5%;
 }
 
 #depoimentos {
