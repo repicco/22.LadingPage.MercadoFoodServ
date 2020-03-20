@@ -56,7 +56,7 @@ header {
     background: url("../img/principal.jpg") no-repeat;
     background-size: cover;
 
-    width: 375px;
+    width: 100%;
     height: 223px;
 
     display: flex;
@@ -190,68 +190,79 @@ ul {
 
 .carousel-item h3 {
     font-size: 1rem;
+    text-align: center;
 } 
 
-#fotos {
-    margin: 10% 0 10% 0;
+.carousel_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
+#fotos {
+    margin: 10% 0 0 0;
+}
 
+.carousel-indicators {
+    bottom: -26px;
+}
+
+/* Button */
+.btn-pink {
+    background-color: #E3387D;
+    color: white;
+    margin-bottom: 30%;
+}
 
 /* Contatos */
 
 #contato {
-    margin: 10% 0 10% 0;
-}
-
-#depoimentos_back {
-    width: 471px;
-    height: 210px;
-    
-    background: #fff;
-    transform: rotate(-5.13deg);
-    position: relative;
-}
-
-#depoimentos_borda {
-    width: 471px;
-    height: 210px;
-    border: 3px solid #E3387D;
-    transform: rotate(-5.13deg);
-
-    position: absolute;
-    margin-top: 2%;
-    margin-left: 5%;
+    margin: 15% 0 40% 0;
 }
 
 #depoimentos {
     position: absolute;
-    margin-top: 5%;
+    margin-top: 10%;
 }
 
 #contato_item, #contato_item2, #contato_item3 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    text-align: center;
+    background-color: #fff;
 }
 
-.img_dep {
+#contato_item h3  {
+    color: #2B5B9C;
+}
+#contato_item p  {
+    color: #2B5B9C;
+}
+
+#contato_item2 h3 {
+    color: #E3387D;
+}
+#contato_item2 p  {
+    color: #E3387D;
+}
+
+#contato_item3 h3  {
+    color: #2B5B9C;
+}
+#contato_item3 p  {
+    color: #2B5B9C;
+}
+
+
+#dep_select, #dep_select2, #dep_select3 {
+    background-color: blue;
+}
+
+
+.img_perfil {
     width: 85px;
     height: 85px;
     border-radius: 50%;
 }
 
-.dep_title {
-    color: #2B5B9C;
-}
-
-.dep_text {
-    color: #000;
-}
-
-.dep_select {
-    background-color: #2B5B9C;
-}
 
 /* botoes */
 .info_btn {
@@ -283,3 +294,4 @@ ul {
     flex-direction: column;
     align-items: center;
 }
+
