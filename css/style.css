@@ -449,15 +449,24 @@ ul {
     }
 
     #fig_poligon {
-        width: 50%;
+        width: 70%;
         display: block;
         position: relative;
+        margin-bottom: 10%;
+    }
+
+    .cont_pol {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     #oferta {
         display: flex;
         flex-direction: column;
-        margin-top: -11%;
+        margin-top: -1%;
+        z-index: 1;
+        position: absolute;
     }
 
     #oferta .number {
