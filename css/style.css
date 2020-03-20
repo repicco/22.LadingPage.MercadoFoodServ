@@ -310,7 +310,7 @@ ul {
 
 #contato_item, #contato_item2, #contato_item3 {
     text-align: center;
-    background-color: #fff;
+    background-color: #000000;
 }
 
 #contato_item h3  {
@@ -348,7 +348,7 @@ ul {
 
 /* Sobre */
 #sobre {
-    background-color: white;
+    background-color: #FFF;
     margin: 0 6% 0 6%;
 }
 
