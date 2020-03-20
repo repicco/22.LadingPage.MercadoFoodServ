@@ -467,6 +467,7 @@ ul {
         margin-top: -1%;
         z-index: 1;
         position: absolute;
+        margin-left: -3%;
     }
 
     #oferta .number {
