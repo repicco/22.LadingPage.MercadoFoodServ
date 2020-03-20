@@ -94,7 +94,7 @@ header h2 {
     color: #fff;
 }
 
-/* Section 1 */
+/* Icons */
 #icons {
     display: flex;
     justify-content: space-around;
@@ -148,9 +148,39 @@ ul {
     color: #fff;
 }
 
+/* Promocao */
 
+#promocao {
+    margin-top: 10%;
 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
 
+#img_poligon {
+    background: url("../img/poligon.png") no-repeat;
+    background-size: contain;
+    width: 20%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+#img_poligon .number {
+    text-align: justify;
+    margin-top: 13%;
+}
+
+#img_poligon p {
+    text-align: justify;
+}
+
+#poligon p {
+    font-size: 1.2rem;
+    color: #547EB7;
+}
 
 /* Contador */
 .contagem{
@@ -212,6 +242,11 @@ ul {
     background-color: #E3387D;
     color: white;
     margin-bottom: 30%;
+    font-size: 2rem;
+}
+
+.btn-success {
+    font-size: 2rem;
 }
 
 /* Contatos */
