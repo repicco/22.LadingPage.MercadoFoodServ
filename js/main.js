@@ -29,5 +29,5 @@ document.getElementById('segundo').innerHTML = segundos;
 
 //Alerta de Saida---------------------------------------
 
-window.onbeforeunload = function(){alert ("Deseja mesmo sair do site?")};
+//window.onbeforeunload = function(){alert ("Deseja mesmo sair do site?")};
 //------------------------------------------------------

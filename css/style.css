@@ -166,6 +166,9 @@ ul {
     display: flex;
     flex-direction: column;
     justify-content: start;
+
+    position: relative;
+    left: -5%;
 }
 
 #img_poligon .number {
@@ -249,10 +252,20 @@ ul {
     font-size: 2rem;
 }
 
+.info_btn {
+    cursor: unset;
+}
+
+.info_btn i {
+    color: white;
+    padding-right: 10px;
+}
+
 /* Contatos */
 
 #contato {
     margin: 15% 0 40% 0;
+    padding: 0 6% 0 6%;
 }
 
 #depoimentos {
@@ -298,35 +311,19 @@ ul {
     border-radius: 50%;
 }
 
-
-/* botoes */
-.info_btn {
-    cursor: unset;
+/* Sobre */
+#sobre {
+    background-color: white;
+    margin: 0 6% 0 6%;
 }
 
-.info_btn i {
-    color: white;
-    padding-right: 10px;
+#sobre h3 {
+    color: #2B5B9C;
 }
 
-/* Form */
-.forms {
-    margin: 3% 0 3% 0;
-    width: 80%;
-}
-
-.forms p {
+#sobre p {
     color: #000;
-    font-weight: bold;
 }
 
-#form_food {
-    background-color: #fff;
-    border: 3px solid #2B5B9C;
-    border-radius: 30px;
 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 
