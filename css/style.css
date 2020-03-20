@@ -53,7 +53,7 @@ font-family: 'Audiowide', cursive;
 
 /* Header */
 header {
-    background: url("../img/principal.jpg") no-repeat;
+    background: url("../img/principal.webp") no-repeat;
     background-size: cover;
 
     width: 100%;
@@ -159,7 +159,7 @@ ul {
 }
 
 #img_poligon {
-    background: url("../img/poligon.png") no-repeat;
+    background: url("../img/poligon.webp") no-repeat;
     background-size: contain;
     width: 20%;
 
@@ -325,5 +325,14 @@ ul {
     color: #000;
 }
 
+/* ==========================Media=================================*/
 
+@media (max-width: 1100px) {
+    header {
+        transform: matrix(-1, 0, 0, 1, 0, 0)
+    }
 
+    .cont_head {
+        
+    }
+}
