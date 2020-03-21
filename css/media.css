@@ -73,6 +73,8 @@
     .cont {
         flex-direction: row;
         margin: 0;
+
+        justify-content: space-around;
     }
 
     #promocao {
