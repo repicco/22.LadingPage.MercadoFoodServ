@@ -1,6 +1,6 @@
 //Contagem Regressiva------------------------------------
 
-var target_date = new Date("march 27, 2020").getTime();
+var target_date = new Date("march 28, 2020").getTime();
 var dias, horas, minutos, segundos;
 var regressiva = document.getElementById("regressiva");
 
