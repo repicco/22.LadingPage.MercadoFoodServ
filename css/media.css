@@ -49,6 +49,7 @@
     header {
         transform: matrix(-1, 0, 0, 1, 0, 0);
         height: 340px;
+        background-position-y: bottom;
     }
        
     .cont_head {
