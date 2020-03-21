@@ -82,6 +82,14 @@
         justify-content: space-around;
     }
 
+    .cont_btn {
+        margin-left: 10%;
+    }
+
+    #ebooks {
+        justify-content: space-between;
+    }
+
     #promocao {
         margin-top: 5%;
     }
@@ -268,7 +276,6 @@
         flex-direction: column;
         margin: 3% 0 3% 0;
     }
-
 
     /* Footer */
 
