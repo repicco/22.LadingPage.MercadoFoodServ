@@ -45,6 +45,14 @@ html, body {
     text-align: center;
 }
 
+.text_blue {
+    color:#2B5B9C;
+}
+
+.text_pink {
+    color: #E3387D;
+}
+
 
 /* ======================================= */
 
@@ -58,7 +66,7 @@ font-family: 'Audiowide', cursive;
 
 /* Header */
 header {
-    background: url("https://s4.aconvert.com/convert/p3r68-cdx67/arhma-ub1d3.svg") no-repeat;
+    background: url("../img/principal.svg") no-repeat;
     background-size: cover;
 
     width: 100%;
@@ -81,6 +89,11 @@ header {
     align-items: flex-end;
 }
 
+.cont_btn {
+    padding-left: 5%;
+    width: 90%;
+}
+
 header a {
     margin-top: 10%;
 
@@ -89,14 +102,13 @@ header a {
 }
 
 header h1 {
-    margin-top: 10%;
+    margin-top: 20%;
     font-size: 1.5rem;
     color: #2B5B9C;
 }
 
 header h2 {
-    font-size: 1.3rem;
-    color: #fff;
+    display: none;
 }
 
 /* Icons */
