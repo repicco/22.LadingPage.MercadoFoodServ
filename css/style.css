@@ -369,3 +369,21 @@ ul {
 #sobre p {
     color: #000;
 }
+
+/* Footer */
+
+#footer {
+    background-color: #2B5B9C;
+    margin: 0;
+}
+
+#rodape {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+} 
+
+.p-2 {
+    font-size: 200%;
+    color: #fff;
+}

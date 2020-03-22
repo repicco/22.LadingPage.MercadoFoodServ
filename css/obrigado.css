@@ -1,0 +1,92 @@
+/* Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'IBM Plex Serif', serif;
+    font-weight: normal;
+}
+
+
+p {
+    margin-bottom: 1.5rem;
+}
+
+h1, h2, h3, h4{
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: white;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+
+    background-color: #000000;
+}
+
+.cont {
+    padding: 0 6% 0 6%;
+    margin: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text_center {
+    text-align: center;
+}
+
+.text_blue {
+    color:#2B5B9C;
+}
+
+.text_pink {
+    color: #E3387D;
+}
+
+/* Header */
+
+header {
+    width: 100%;
+    margin-top: 5%;
+    height: 10%;
+}
+
+/* Main */
+
+#main {
+    margin-top: 10%;
+    position: relative;
+}
+
+.cont_head {
+    display: flex;
+    justify-content: center;
+}
+
+.img-center i {
+    font-size: 10rem;
+    margin-bottom: 10%;
+}
+
+/* Footer */
+
+footer {
+    background-color: #2B5B9C;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#rodape {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+} 
+
+.p-2 {
+    font-size: 200%;
+    color: #fff;
+}

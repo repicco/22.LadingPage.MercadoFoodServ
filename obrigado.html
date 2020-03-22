@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta name="description" content="Mercado Food Service, download Ebooks">
+    <meta name="keywords" content="mercado food service ebook fotos alimentos">
+    <meta name="author" content="Sobreviventes XP31">
+    <title>Mercado Food Service</title>
+
+    <!--Fontawesome-->
+    <script src="https://kit.fontawesome.com/d2530e10b2.js" crossorigin="anonymous"></script>
+    
+    <link rel="shortcut icon" href="img/favicon.ico" />
+
+    <!--Bootstrap-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" crossorigin="anonymous">
+
+    <!--CSS-->
+    <link rel="stylesheet" href="css/obrigado.css">
+</head>
+<body>
+    <!--MenuSuperior-->
+    <header class="container">
+        <div class="cont_head">
+            <a href="#" alt="Mercado Food Service"><img class="img" src="img/logo.svg" alt="Mercado Food Service"></a>
+        </div>
+    </header>
+
+    <main id="main" class="container">
+        <section class="principal2">
+            <!--Titulo-->
+            <div class="img-center d-flex justify-content-center">
+                <a href="" title="mercadofoodservice"><i class="fas fa-check-double"></i></a>
+           </div>
+           <div class="text_center">
+                <h1><strong>Agradecemos por baixar nossos E-books! </strong></h1>
+
+                <!--ConteudoPrincipal-->
+                <p>Esperamos que faça bom proveito deste material rico e ofereça um excelente atendimento ao cliente ;)
+                </p>
+
+                <p>Problemas para fazer o download?</p>
+
+                <button class="btn btn-info" onclick="ebook()">Cozinha Delivery</button>
+                <br>
+                <button class="btn btn-light " onclick="ebook2()">Técnicas de Fotografia Gastronomica</button>
+           </div>
+        </section>
+    </main>
+
+    <footer class="cont">
+        <div id="rodape">
+            <a class="p-2" href="https://web.facebook.com/mercadofoodservice.br/" title="Atenditudo" target="_blank"><i class="fab fa-facebook"></i></a>
+            <span class="line2"></span>
+            <a class="p-2" href="https://www.linkedin.com/company/mercado-food-service/about/?viewAsMember=true" title="Atenditudo" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <span class="line2"></span>
+            <a class="p-2" href="http://instagram.com/mercadofoodservice" title="Atenditudo" target="_blank"><i class="fab fa-instagram"></i></a>
+            <span class="line2"></span>
+            <a class="p-2" href="mailto:contado.mercadofoodservice@gmail.com?Subject=Contato" target="_top" title="Atenditudo"><i class="fas fa-envelope"></i></a>  
+        </div>
+    </footer>
+</body>
+<script>
+    function ebook (){
+        window.open('content/cozinha_delivery.pdf', '_blank')
+    }
+    function ebook2 (){
+        window.open('content/tecnicas_de_fotografia_gastronomica.pdf', '_blank')
+    }
+
+    function ebooks () {
+       ebook()
+       ebook2()
+    }
+
+    window.onload(ebooks())
+</script>
+</html>
