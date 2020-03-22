@@ -10,6 +10,7 @@
 
 p {
     margin-bottom: 1.5rem;
+    color: #fff;
 }
 
 h1, h2, h3, h4{
@@ -67,7 +68,7 @@ header {
 }
 
 .img-center i {
-    font-size: 10rem;
+    font-size: 5rem;
     margin-bottom: 10%;
 }
 
