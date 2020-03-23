@@ -28,6 +28,16 @@ document.getElementById('segundo').innerHTML = segundos;
 //------------------------------------------------------
 
 //Alerta de Saida---------------------------------------
+let modal = document.getElementById('siteModal')
+        
+function popUp () {
+   modal.classList.toggle('show')
+   modal.style.display = 'block'
+}
 
+function fechaPopUp () {
+    modal.classList.remove('show')
+    modal.style.display = 'none'
+}
 //window.onbeforeunload = function(){alert ("Deseja mesmo sair do site?")};
 //------------------------------------------------------
