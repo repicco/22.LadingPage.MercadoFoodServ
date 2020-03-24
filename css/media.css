@@ -35,6 +35,21 @@
     li {
         font-size: 1.2rem;
     }
+
+    /* Blocks */
+    #vendas {
+        display: flex;
+    }
+        
+    .cont_btn {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+        
+    #contato {
+        display: flex;
+    }
     
     /* Header */
     
@@ -312,4 +327,6 @@
         font-size: 200%;
         color: #fff;
     }
+
+
 }

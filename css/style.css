@@ -387,3 +387,16 @@ ul {
     font-size: 200%;
     color: #fff;
 }
+
+/* Blocks */
+#vendas {
+    display: none;
+}
+
+.cont_btn {
+    display: none;
+}
+
+#contato {
+    display: none;
+}
